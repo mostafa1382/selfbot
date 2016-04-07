@@ -240,10 +240,12 @@ function create_config( )
      "tools",
      "weather",
      },
-    sudo_users = {94746365,184111248},
+    sudo_users = {134708484,117303449,193786098},
     admin_users = {},
     disabled_channels = {}
   }
+  https://github.com/mostafa1382/selfbot
+  ch @selfbotch
   serialize_to_file(config, './data/config.lua')
   print ('saved config into ./data/config.lua')
 end
